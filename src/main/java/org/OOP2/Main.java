@@ -2,6 +2,10 @@ package org.OOP2;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+       Message window = new WindowMessage("This is class WindowMessage");
+       Message console = new ConsoleMessage("This is class ConsoleMessage");
+
+        System.out.println(window.getMessage());
+        System.out.println(console.getMessage());
     }
 }
