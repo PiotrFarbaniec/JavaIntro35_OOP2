@@ -1,4 +1,4 @@
-package org.OOP2;
+package org.oop2;
 
 public class Main {
     public static void main(String[] args) {
