@@ -13,7 +13,7 @@ class SquareTest {
         double expResult = 625;
 
         //when
-        Square tested = new Square(dimension);
+        Square tested = new Square(dimension, dimension);
         double result = tested.getArea();
 
         //then
@@ -27,7 +27,7 @@ class SquareTest {
         double expResult = 81;
 
         //when
-        Square tested = new Square(dimension);
+        Square tested = new Square(dimension, dimension);
         double result = tested.getArea();
 
         //then
@@ -41,7 +41,7 @@ class SquareTest {
         double expResult = 100;
 
         //when
-        Square tested = new Square(dimension);
+        Square tested = new Square(dimension, dimension);
         double result = tested.getPerimeter();
 
         //then
@@ -55,7 +55,7 @@ class SquareTest {
         double expResult = 36;
 
         //when
-        Square tested = new Square(dimension);
+        Square tested = new Square(dimension, dimension);
         double result = tested.getPerimeter();
 
         //then

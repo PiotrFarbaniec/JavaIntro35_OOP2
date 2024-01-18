@@ -1,20 +1,18 @@
 package org.oop2;
 
-public class Square extends Shape {
+public class Square extends Rectangle {
 
-    private double dim;
-    public Square(double dim) {
-        super();
-        this.dim = dim;
+    public Square(double dimA, double dimB) {
+        super(dimA, dimB);
     }
 
     @Override
     public double getArea() {
-        return dim * dim;
+        return super.getArea();
     }
 
     @Override
     public double getPerimeter() {
-        return 4 * dim;
+        return super.getPerimeter();
     }
 }
